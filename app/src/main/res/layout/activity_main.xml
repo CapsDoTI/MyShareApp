@@ -21,7 +21,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Digite se nome"
+            android:hint="Digite seu nome"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/id_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite seu email"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/id_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite seu telefone"
             android:inputType="text" />
 
         <Button
